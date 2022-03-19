@@ -6,6 +6,7 @@ def unp_generator(list_to_unp):
             for _k in unp_generator(_i):
                 yield _k
 
+
 if __name__ == '__main__':
     nested_list = [
   	    ['a', 'b', 'c'],

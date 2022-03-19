@@ -14,6 +14,7 @@ class Unpacker():
                 new_list.append(list_to_unpack.pop(_i))
             else:        
                 self.unpack(list_to_unpack[_i], new_list)
+        return new_list
   
     def __iter__(self):
         self.unpack(self.list_to_unpack, self.new_list)
